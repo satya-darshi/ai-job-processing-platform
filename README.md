@@ -214,7 +214,3 @@ The API tests focus on validation, job creation, and health checks.
 - More AI providers/models
 - Production secret management
 - Kubernetes deployment
-
-## Important Resume Note
-
-This repository is a working project scaffold. Only describe features as "implemented/built" on a resume after you have personally run, tested, and understood them. A good next step is to rebuild the system from scratch after the submission deadline so you can explain every component during interviews.
