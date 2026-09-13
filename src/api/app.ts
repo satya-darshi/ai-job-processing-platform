@@ -18,7 +18,7 @@ const swaggerSpec = swaggerJsdoc({
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "AI Task Processing Platform API",
+      title: "AI Jobs Processing Platform API",
       version: "1.0.0"
     }
   },

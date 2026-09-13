@@ -1,5 +1,5 @@
 {
-  "name": "ai-task-processing-platform",
+  "name": "ai-job-processing-platform",
   "version": "1.0.0",
   "private": true,
   "description": "Asynchronous AI job processing backend using Node.js, PostgreSQL, RabbitMQ and Redis",

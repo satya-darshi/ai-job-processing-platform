@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_DB: aitasks
+      POSTGRES_DB: aijobs
       POSTGRES_USER: app
       POSTGRES_PASSWORD: app
     ports:
@@ -10,7 +10,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U app -d aitasks"]
+      test: ["CMD-SHELL", "pg_isready -U app -d aijobs"]
       interval: 5s
       timeout: 5s
       retries: 10

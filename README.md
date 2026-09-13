@@ -1,4 +1,4 @@
-# AI Task Processing Platform
+# AI job Processing Platform
 
 An asynchronous backend platform for submitting long-running AI jobs without blocking HTTP requests.
 
@@ -57,7 +57,7 @@ Express API
 
 ```bash
 git clone <your-github-repository-url>
-cd ai-task-processing-platform
+cd ai-job-processing-platform
 cp .env.example .env
 ```
 
@@ -111,7 +111,7 @@ curl -X POST http://localhost:3000/jobs \
   -H "Idempotency-Key: demo-001" \
   -d '{
     "type": "summarize",
-    "input": "RabbitMQ allows backend applications to process long-running tasks asynchronously."
+    "input": "RabbitMQ allows backend applications to process long-running jobs asynchronously."
   }'
 ```
 
