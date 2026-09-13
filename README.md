@@ -1,4 +1,4 @@
-# AI job Processing Platform
+# AI Job Processing Platform
 
 An asynchronous backend platform for submitting long-running AI jobs without blocking HTTP requests.
 
